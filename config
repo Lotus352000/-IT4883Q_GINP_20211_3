@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://gitlab.com/dinhtx223/doan_tn.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "doan_cuong"]
+	remote = origin
+	merge = refs/heads/doan_cuong
